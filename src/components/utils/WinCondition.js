@@ -72,11 +72,11 @@ const traverseColumnsForValues = (boardState) => {
 //   }
 //  let k = 3
 //   let l = i - 1
-//   while (l < arr.length) {
+//   while (l > 0) {
 //     if (arr[k][k] !== arr[l][l]) {
 //       return false
 //     } else {
-//       l++
+//       l--
 //     }
 //     win = true
 //   }
