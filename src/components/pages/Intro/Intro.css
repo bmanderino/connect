@@ -1,0 +1,31 @@
+.defaultInput {
+  border: 1px solid #fff;
+  width: 20vw;
+}
+.errorInput {
+  border: 1px solid red;
+  width: 20vw;
+}
+.errorMessage {
+  color: red;
+  font-size: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  border: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px 10px;
+  flex: 1 1 0px;
+}
+.button:hover {
+  background-color: #342f28;
+  box-shadow: 2px 0 10px #342f28;
+}
