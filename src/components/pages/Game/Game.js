@@ -6,7 +6,6 @@ import {
   createInitialBoardState,
   updateBoardState,
   refreshGame,
-  //handleAi
 } from "../../utils/"
 
 const Game = (props) => {
@@ -52,9 +51,6 @@ const Game = (props) => {
     if (!props.start) {
       refreshGame()
     }
-    // if(props.playerName==="AI"){
-    //   handleAI(moves, handleColumnSelection)
-    // }
   })
 
   const checkforValidColumn = (col) => {

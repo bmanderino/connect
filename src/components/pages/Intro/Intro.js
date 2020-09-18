@@ -22,7 +22,7 @@ const Intro = (props) => {
 
   return (
     <header className="App-header">
-      <h1>Play NineDT</h1>
+      <h1>Play Connect Four</h1>
       <h3>Enter your name</h3>
       <input
         className={error ? "errorInput" : "defaultInput"}
