@@ -2,17 +2,15 @@ const checkForVerticalWin = (boardState) => {
   let win = false
   boardState.forEach((val, key) => {
     if (val.length < 4) return false
-    let i = 0
-    let j = i + 1
+    let j = 1
     while (j < 4) {
-      if (val[i] !== val[j]) {
+      if (val[0] !== val[j]) {
         return false
       } else {
         j++
       }
-      console.log("win")
-      win = true
     }
+    win = true
   })
   return win
 }
